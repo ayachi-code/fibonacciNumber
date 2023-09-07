@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(191, 218, 217, 0.723);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.fibonaci {
+    text-align: center;
+    width: 100%;
+    position:absolute;
+}
+
+.calculate:hover {
+    background-color: blue;
+}
+
+/* h1 {
+    font-size: larg
+} */
+
+input[type="text"] {
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    border-style: groove;
+}
+
+p {
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fibonaci button {
+    color: rgba(0, 0, 0, 0.834);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(103, 193, 237);
+    width: 30%;
+    height: 100%;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+#input {
+    width: 40%;
+    text-align: center;
+    border-color: rgb(147, 147, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: none;
+}
